@@ -13,7 +13,7 @@ cd docs/
 sed -i '' -e "/navbar/s/true/false/" ./.vuepress/config.js
 vuepress export
 # restore navbar true and mv to dist
-sed -i '' -e "/navbar/s/false/true/" ./.vuepress/config.js
+sed -i '' -e "/navbar/s/false/false/" ./.vuepress/config.js
 mv 'Crypto.com Chain.pdf' ./.vuepress/dist/Crypto.com_Chain.pdf
 
 
